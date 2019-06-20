@@ -2,9 +2,6 @@
 katz_deli = []
 
 def line(katz_deli)
-if katz_deli.length== 0 
-  puts "The line is currently empty."
-  end
 
 startString = "The line is currently: "
  i = 0 
@@ -12,6 +9,9 @@ for i in 0..katz_deli.length-1 do
    startString += "#{i+1}. #{katz_deli[i]} "
  end
  puts startString
+ if katz_deli.length== 0 
+  puts "The line is currently empty."
+  end
 end
 
 
