@@ -12,6 +12,7 @@ for i in 0..katz_deli.length-1 do
    startString += "#{i+1}. #{katz_deli[i]} "
  end
  puts startString
+ end
 end
 
 
